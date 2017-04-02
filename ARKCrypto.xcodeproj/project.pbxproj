@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9B719F971E90F57D00829C32 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719F961E90F57D00829C32 /* main.swift */; };
-		9B719FAB1E9107B000829C32 /* Data+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FAA1E9107B000829C32 /* Data+HMAC.swift */; };
-		9B719FAD1E9107C300829C32 /* String+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FAC1E9107C300829C32 /* String+HMAC.swift */; };
-		9B719FBD1E9132AC00829C32 /* Data+Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FBC1E9132AC00829C32 /* Data+Digest.swift */; };
-		9B719FBF1E9132C200829C32 /* String+Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FBE1E9132C200829C32 /* String+Digest.swift */; };
-		9B719FC51E914AD000829C32 /* Data+SymmetricCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FC41E914AD000829C32 /* Data+SymmetricCryptor.swift */; };
-		9B719FC71E914AD900829C32 /* String+SymmetricCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FC61E914AD900829C32 /* String+SymmetricCryptor.swift */; };
-		9B719FC91E9150B800829C32 /* SymmetricCryptorAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FC81E9150B800829C32 /* SymmetricCryptorAlgorithm.swift */; };
+		9B719FD21E915B3A00829C32 /* Data+Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FCB1E915B3A00829C32 /* Data+Digest.swift */; };
+		9B719FD31E915B3A00829C32 /* Data+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FCC1E915B3A00829C32 /* Data+HMAC.swift */; };
+		9B719FD41E915B3A00829C32 /* Data+SymmetricCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FCD1E915B3A00829C32 /* Data+SymmetricCryptor.swift */; };
+		9B719FD51E915B3A00829C32 /* String+Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FCE1E915B3A00829C32 /* String+Digest.swift */; };
+		9B719FD61E915B3A00829C32 /* String+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FCF1E915B3A00829C32 /* String+HMAC.swift */; };
+		9B719FD71E915B3A00829C32 /* String+SymmetricCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FD01E915B3A00829C32 /* String+SymmetricCryptor.swift */; };
+		9B719FD81E915B3A00829C32 /* SymmetricCryptorAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FD11E915B3A00829C32 /* SymmetricCryptorAlgorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,13 +34,13 @@
 		9B719F961E90F57D00829C32 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B719F9D1E90F74A00829C32 /* ARKCrypto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARKCrypto-Bridging-Header.h"; sourceTree = "<group>"; };
 		9B719FA21E90F75D00829C32 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
-		9B719FAA1E9107B000829C32 /* Data+HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+HMAC.swift"; sourceTree = "<group>"; };
-		9B719FAC1E9107C300829C32 /* String+HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HMAC.swift"; sourceTree = "<group>"; };
-		9B719FBC1E9132AC00829C32 /* Data+Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Digest.swift"; sourceTree = "<group>"; };
-		9B719FBE1E9132C200829C32 /* String+Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digest.swift"; sourceTree = "<group>"; };
-		9B719FC41E914AD000829C32 /* Data+SymmetricCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+SymmetricCryptor.swift"; sourceTree = "<group>"; };
-		9B719FC61E914AD900829C32 /* String+SymmetricCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SymmetricCryptor.swift"; sourceTree = "<group>"; };
-		9B719FC81E9150B800829C32 /* SymmetricCryptorAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymmetricCryptorAlgorithm.swift; sourceTree = "<group>"; };
+		9B719FCB1E915B3A00829C32 /* Data+Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Digest.swift"; sourceTree = "<group>"; };
+		9B719FCC1E915B3A00829C32 /* Data+HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+HMAC.swift"; sourceTree = "<group>"; };
+		9B719FCD1E915B3A00829C32 /* Data+SymmetricCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+SymmetricCryptor.swift"; sourceTree = "<group>"; };
+		9B719FCE1E915B3A00829C32 /* String+Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digest.swift"; sourceTree = "<group>"; };
+		9B719FCF1E915B3A00829C32 /* String+HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HMAC.swift"; sourceTree = "<group>"; };
+		9B719FD01E915B3A00829C32 /* String+SymmetricCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SymmetricCryptor.swift"; sourceTree = "<group>"; };
+		9B719FD11E915B3A00829C32 /* SymmetricCryptorAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymmetricCryptorAlgorithm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,13 +76,7 @@
 			children = (
 				9B719F9D1E90F74A00829C32 /* ARKCrypto-Bridging-Header.h */,
 				9B719F961E90F57D00829C32 /* main.swift */,
-				9B719FBC1E9132AC00829C32 /* Data+Digest.swift */,
-				9B719FBE1E9132C200829C32 /* String+Digest.swift */,
-				9B719FAA1E9107B000829C32 /* Data+HMAC.swift */,
-				9B719FAC1E9107C300829C32 /* String+HMAC.swift */,
-				9B719FC41E914AD000829C32 /* Data+SymmetricCryptor.swift */,
-				9B719FC61E914AD900829C32 /* String+SymmetricCryptor.swift */,
-				9B719FC81E9150B800829C32 /* SymmetricCryptorAlgorithm.swift */,
+				9B719FCA1E915B1100829C32 /* Crypto */,
 			);
 			path = ARKCrypto;
 			sourceTree = "<group>";
@@ -93,6 +87,20 @@
 				9B719FA21E90F75D00829C32 /* libcommonCrypto.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B719FCA1E915B1100829C32 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				9B719FCB1E915B3A00829C32 /* Data+Digest.swift */,
+				9B719FCC1E915B3A00829C32 /* Data+HMAC.swift */,
+				9B719FCD1E915B3A00829C32 /* Data+SymmetricCryptor.swift */,
+				9B719FCE1E915B3A00829C32 /* String+Digest.swift */,
+				9B719FCF1E915B3A00829C32 /* String+HMAC.swift */,
+				9B719FD01E915B3A00829C32 /* String+SymmetricCryptor.swift */,
+				9B719FD11E915B3A00829C32 /* SymmetricCryptorAlgorithm.swift */,
+			);
+			path = Crypto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,14 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B719FBF1E9132C200829C32 /* String+Digest.swift in Sources */,
-				9B719FC91E9150B800829C32 /* SymmetricCryptorAlgorithm.swift in Sources */,
-				9B719FBD1E9132AC00829C32 /* Data+Digest.swift in Sources */,
-				9B719FC51E914AD000829C32 /* Data+SymmetricCryptor.swift in Sources */,
-				9B719FAB1E9107B000829C32 /* Data+HMAC.swift in Sources */,
-				9B719FC71E914AD900829C32 /* String+SymmetricCryptor.swift in Sources */,
-				9B719FAD1E9107C300829C32 /* String+HMAC.swift in Sources */,
+				9B719FD51E915B3A00829C32 /* String+Digest.swift in Sources */,
+				9B719FD81E915B3A00829C32 /* SymmetricCryptorAlgorithm.swift in Sources */,
 				9B719F971E90F57D00829C32 /* main.swift in Sources */,
+				9B719FD71E915B3A00829C32 /* String+SymmetricCryptor.swift in Sources */,
+				9B719FD21E915B3A00829C32 /* Data+Digest.swift in Sources */,
+				9B719FD61E915B3A00829C32 /* String+HMAC.swift in Sources */,
+				9B719FD31E915B3A00829C32 /* Data+HMAC.swift in Sources */,
+				9B719FD41E915B3A00829C32 /* Data+SymmetricCryptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
