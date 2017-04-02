@@ -4,7 +4,9 @@ Notes for encryption by Swift
 ## Note
 This is my personal note, not yet to release.
 
-If you want to integrate into the project, you should importing `CommonCrypto`, [see](http://stackoverflow.com/questions/25248598/importing-commoncrypto-in-a-swift-framework/37125785#37125785)
+If you want to integrate into the project, you should importing `CommonCrypto`, see [Importing CommonCrypto in a Swift framework
+
+](http://stackoverflow.com/questions/25248598/importing-commoncrypto-in-a-swift-framework/37125785#37125785)
 
 ## Features
 
