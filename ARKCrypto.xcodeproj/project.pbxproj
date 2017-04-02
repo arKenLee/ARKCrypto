@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B719F971E90F57D00829C32 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719F961E90F57D00829C32 /* main.swift */; };
+		9B719FAB1E9107B000829C32 /* Data+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FAA1E9107B000829C32 /* Data+HMAC.swift */; };
+		9B719FAD1E9107C300829C32 /* String+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FAC1E9107C300829C32 /* String+HMAC.swift */; };
+		9B719FBD1E9132AC00829C32 /* Data+Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FBC1E9132AC00829C32 /* Data+Digest.swift */; };
+		9B719FBF1E9132C200829C32 /* String+Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FBE1E9132C200829C32 /* String+Digest.swift */; };
+		9B719FC51E914AD000829C32 /* Data+SymmetricCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FC41E914AD000829C32 /* Data+SymmetricCryptor.swift */; };
+		9B719FC71E914AD900829C32 /* String+SymmetricCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FC61E914AD900829C32 /* String+SymmetricCryptor.swift */; };
+		9B719FC91E9150B800829C32 /* SymmetricCryptorAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B719FC81E9150B800829C32 /* SymmetricCryptorAlgorithm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B719F911E90F57D00829C32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B719F931E90F57D00829C32 /* ARKCrypto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ARKCrypto; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B719F961E90F57D00829C32 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B719F9D1E90F74A00829C32 /* ARKCrypto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARKCrypto-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B719FA21E90F75D00829C32 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
+		9B719FAA1E9107B000829C32 /* Data+HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+HMAC.swift"; sourceTree = "<group>"; };
+		9B719FAC1E9107C300829C32 /* String+HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HMAC.swift"; sourceTree = "<group>"; };
+		9B719FBC1E9132AC00829C32 /* Data+Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Digest.swift"; sourceTree = "<group>"; };
+		9B719FBE1E9132C200829C32 /* String+Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digest.swift"; sourceTree = "<group>"; };
+		9B719FC41E914AD000829C32 /* Data+SymmetricCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+SymmetricCryptor.swift"; sourceTree = "<group>"; };
+		9B719FC61E914AD900829C32 /* String+SymmetricCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SymmetricCryptor.swift"; sourceTree = "<group>"; };
+		9B719FC81E9150B800829C32 /* SymmetricCryptorAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymmetricCryptorAlgorithm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B719F901E90F57D00829C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B719F8A1E90F57D00829C32 = {
+			isa = PBXGroup;
+			children = (
+				9B719F951E90F57D00829C32 /* ARKCrypto */,
+				9B719F941E90F57D00829C32 /* Products */,
+				9B719FA11E90F75D00829C32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B719F941E90F57D00829C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B719F931E90F57D00829C32 /* ARKCrypto */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B719F951E90F57D00829C32 /* ARKCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				9B719F9D1E90F74A00829C32 /* ARKCrypto-Bridging-Header.h */,
+				9B719F961E90F57D00829C32 /* main.swift */,
+				9B719FBC1E9132AC00829C32 /* Data+Digest.swift */,
+				9B719FBE1E9132C200829C32 /* String+Digest.swift */,
+				9B719FAA1E9107B000829C32 /* Data+HMAC.swift */,
+				9B719FAC1E9107C300829C32 /* String+HMAC.swift */,
+				9B719FC41E914AD000829C32 /* Data+SymmetricCryptor.swift */,
+				9B719FC61E914AD900829C32 /* String+SymmetricCryptor.swift */,
+				9B719FC81E9150B800829C32 /* SymmetricCryptorAlgorithm.swift */,
+			);
+			path = ARKCrypto;
+			sourceTree = "<group>";
+		};
+		9B719FA11E90F75D00829C32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B719FA21E90F75D00829C32 /* libcommonCrypto.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B719F921E90F57D00829C32 /* ARKCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B719F9A1E90F57D00829C32 /* Build configuration list for PBXNativeTarget "ARKCrypto" */;
+			buildPhases = (
+				9B719F8F1E90F57D00829C32 /* Sources */,
+				9B719F901E90F57D00829C32 /* Frameworks */,
+				9B719F911E90F57D00829C32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKCrypto;
+			productName = ARKCrypto;
+			productReference = 9B719F931E90F57D00829C32 /* ARKCrypto */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B719F8B1E90F57D00829C32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = arKen;
+				TargetAttributes = {
+					9B719F921E90F57D00829C32 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B719F8E1E90F57D00829C32 /* Build configuration list for PBXProject "ARKCrypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B719F8A1E90F57D00829C32;
+			productRefGroup = 9B719F941E90F57D00829C32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B719F921E90F57D00829C32 /* ARKCrypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B719F8F1E90F57D00829C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B719FBF1E9132C200829C32 /* String+Digest.swift in Sources */,
+				9B719FC91E9150B800829C32 /* SymmetricCryptorAlgorithm.swift in Sources */,
+				9B719FBD1E9132AC00829C32 /* Data+Digest.swift in Sources */,
+				9B719FC51E914AD000829C32 /* Data+SymmetricCryptor.swift in Sources */,
+				9B719FAB1E9107B000829C32 /* Data+HMAC.swift in Sources */,
+				9B719FC71E914AD900829C32 /* String+SymmetricCryptor.swift in Sources */,
+				9B719FAD1E9107C300829C32 /* String+HMAC.swift in Sources */,
+				9B719F971E90F57D00829C32 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B719F981E90F57D00829C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B719F991E90F57D00829C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9B719F9B1E90F57D00829C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARKCrypto/ARKCrypto-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B719F9C1E90F57D00829C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARKCrypto/ARKCrypto-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B719F8E1E90F57D00829C32 /* Build configuration list for PBXProject "ARKCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B719F981E90F57D00829C32 /* Debug */,
+				9B719F991E90F57D00829C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B719F9A1E90F57D00829C32 /* Build configuration list for PBXNativeTarget "ARKCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B719F9B1E90F57D00829C32 /* Debug */,
+				9B719F9C1E90F57D00829C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B719F8B1E90F57D00829C32 /* Project object */;
+}
