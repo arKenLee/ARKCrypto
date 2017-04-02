@@ -9,7 +9,7 @@ If you want to integrate into the project, you should importing `CommonCrypto`, 
 ## Features
 
 ### Digest
-```
+```swift
 let md2 = data.md2 // md2 data
 let md4 = data.md4 // md4 data
 let md5 = data.md5 // md5 data
@@ -31,7 +31,7 @@ let sha384String = string.sha384 // equal to `data.sha384String`
 let sha512String = string.sha512 // equal to `data.sha512String`
 ```
 ### HMAC
-```
+```swift
 let hmacMD5    = data.hmacMD5(key: key)    // HMAC MD5 data
 let hmacSHA1   = data.hmacSHA1(key: key)   // HMAC SHA1 data
 let hmacSHA224 = data.hmacSHA224(key: key) // HMAC SHA224 data
@@ -48,7 +48,7 @@ let sha256String = string.hmacSHA512(key: keyString) // equal to `data.hmacSHA51
 ```
 
 ### Symmetric Encryption
-```
+```swift
 // Data
 let aesCipher = data.aes128Encrypt(withKey: key, iv: nil) // iv default is nil
 let aesClear = aesCipher?.aes128Decrypt(withKey: key)     // iv default is nil
