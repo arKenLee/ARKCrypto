@@ -2,7 +2,6 @@
 Notes for encryption by Swift
 
 ## Note
-------
 This is my personal note, not yet to release.
 
 If you want to integrate into the project, you should importing `CommonCrypto`, [see](http://stackoverflow.com/questions/25248598/importing-commoncrypto-in-a-swift-framework/37125785#37125785)
@@ -79,9 +78,7 @@ let rc4Cleartext = rc4Ciphertext?.symmetricEncrypt(algorithm: .rc4_128, key: key
 ```
 
 ## Author
-------
 arkenlee
 
 ## License
-------
 ARKCrypto is available under the MIT license. See the LICENSE file for more info.
