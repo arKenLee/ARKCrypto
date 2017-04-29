@@ -81,4 +81,4 @@ let rc4Cleartext = rc4Ciphertext?.symmetricEncrypt(algorithm: .rc4_128, key: key
 arkenlee
 
 ## License
-ARKCrypto is available under the MIT license. See the LICENSE file for more info.
+ARKCrypto is available under the MIT license. See the [LICENSE](https://github.com/arKenLee/ARKCrypto/blob/master/LICENSE) file for more info.
